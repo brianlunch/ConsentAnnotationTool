@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gdpreportReact/static/css/main.d9a1eb6c.chunk.css",
+    "main.js": "/gdpreportReact/static/js/main.0af94b64.chunk.js",
+    "main.js.map": "/gdpreportReact/static/js/main.0af94b64.chunk.js.map",
+    "runtime-main.js": "/gdpreportReact/static/js/runtime-main.a86816a8.js",
+    "runtime-main.js.map": "/gdpreportReact/static/js/runtime-main.a86816a8.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/gdpreportReact/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.16fd8e27.chunk.js": "/gdpreportReact/static/js/2.16fd8e27.chunk.js",
+    "static/js/2.16fd8e27.chunk.js.map": "/gdpreportReact/static/js/2.16fd8e27.chunk.js.map",
+    "static/js/3.e31987e3.chunk.js": "/gdpreportReact/static/js/3.e31987e3.chunk.js",
+    "static/js/3.e31987e3.chunk.js.map": "/gdpreportReact/static/js/3.e31987e3.chunk.js.map",
+    "index.html": "/gdpreportReact/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/gdpreportReact/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.d9a1eb6c.chunk.css.map": "/gdpreportReact/static/css/main.d9a1eb6c.chunk.css.map",
+    "static/js/2.16fd8e27.chunk.js.LICENSE.txt": "/gdpreportReact/static/js/2.16fd8e27.chunk.js.LICENSE.txt",
+    "static/media/HowTo.9a383530.gif": "/gdpreportReact/static/media/HowTo.9a383530.gif",
+    "static/media/IrishTimes.537ec91e.PNG": "/gdpreportReact/static/media/IrishTimes.537ec91e.PNG",
+    "static/media/consent.70ce054d.png": "/gdpreportReact/static/media/consent.70ce054d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a86816a8.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.16fd8e27.chunk.js",
+    "static/css/main.d9a1eb6c.chunk.css",
+    "static/js/main.0af94b64.chunk.js"
+  ]
+}

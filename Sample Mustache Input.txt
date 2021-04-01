@@ -1,0 +1,66 @@
+{
+"boxes":[
+   {
+      "number":1,
+      "domain":"Regular Language",
+      "issues":[
+         {
+            "name":"Consent Buttons are different colours.",
+            "cmnt":"Accept is Green and reject is red",
+            "laws":[
+               {
+                  "lawName":"Article 7(4)",
+                  "lawDescription":"When assessing whether consent is freely given, utmost account shall be taken of whether… the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract"
+               },
+               {
+                  "lawName":"Article 7(5)",
+                  "lawDescription":" 2 Assessing whether consent is freely given, utmost account shall be taken of whether… the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract"
+               }
+            ]
+         },
+         {
+            "name":"I do not know what I am consenting to.",
+            "cmnt":"Unclear what it means",
+            "laws":[
+               {
+                  "lawName":"Article 7(4)",
+                  "lawDescription":"When assessing whether consent is freely given, utmost account shall be taken of whether… the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "number":2,
+      "domain":"Regular Language",
+      "issues":[
+         {
+            "name":"There is no reject button.",
+            "cmnt":"cannot reject",
+            "laws":[
+               {
+                  "lawName":"Article 7(4)",
+                  "lawDescription":"When assessing whether consent is freely given, utmost account shall be taken of whether… the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "number":3,
+      "domain":"Regular Language",
+      "issues":[
+         {
+            "name":"Choice 'accept all' is pre-highlighted",
+            "cmnt":"Pre-ticked",
+            "laws":[
+               {
+                  "lawName":"Article 7(4)",
+                  "lawDescription":"When assessing whether consent is freely given, utmost account shall be taken of whether… the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract"
+               }
+            ]
+         }
+      ]
+   }
+]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Consent Annotation tool",
+    "version": "1.0",
+    "description": "A tool for highlighting issues with consent dialogues and generating documentation linking them to their appropriate legal clauses",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["screenshot.js"]
+        }
+      ],
+    "browser_action": {
+        "default_icon": "camera.png",
+        "default_title": "Take a screen shot!"
+    },
+    "icons": {
+        "16": "images/camera16.png",
+        "32": "images/camera32.png",
+        "64": "images/camera64.png",
+        "128": "images/camera128.png"
+    },
+    "permissions": [
+        "activeTab",
+            "contextMenus"
+    ],
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';"
+}
