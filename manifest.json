@@ -1,6 +1,6 @@
 {
     "name": "Consent Annotation tool",
-    "version": "1.0",
+    "version": "0.1",
     "description": "A tool for highlighting issues with consent dialogues and generating documentation linking them to their appropriate legal clauses",
     "background": {
         "scripts": [

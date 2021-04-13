@@ -8,8 +8,20 @@ chrome.browserAction.setBadgeText({text: (images.length).toString()});
 
 
 chrome.contextMenus.create({
-  id: "some-command",
+  id: "tool",
   title: "Open Annotation Tool with Screenshots",
+  contexts: ["all"]
+});
+
+chrome.contextMenus.create({
+  id: "HowTo",
+  title: "How to use the tool",
+  contexts: ["all"]
+});
+
+chrome.contextMenus.create({
+  id: "website",
+  title: "Tool Website ",
   contexts: ["all"]
 });
 
@@ -17,12 +29,27 @@ chrome.contextMenus.create({
 
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
-  if (info.menuItemId == "some-command") {
+  if (info.menuItemId == "tool") {
     chrome.tabs.create({ url: chrome.extension.getURL('index.html?id=' + id + '#/') }, (tab) => {
       targetId = tab.id;
       id++;
     });
   }
+
+  if (info.menuItemId == "HowTo") {
+    chrome.tabs.create({ url: "https://brianlunch.github.io/ConsentAnnotationToolSite/#/HowTo"}, (tab) => {
+      targetId = tab.id;
+      id++;
+    });
+  }
+
+  if (info.menuItemId == "website") {
+    chrome.tabs.create({ url: "https://brianlunch.github.io/ConsentAnnotationToolSite/#/"}, (tab) => {
+      targetId = tab.id;
+      id++;
+    });
+  }
+
 });
 
 
